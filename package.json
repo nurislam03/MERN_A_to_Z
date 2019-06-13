@@ -1,0 +1,32 @@
+{
+  "name": "mern_a_to_z",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurislam03/MERN_A_to_Z.git"
+  },
+  "author": "Nur Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nurislam03/MERN_A_to_Z/issues"
+  },
+  "homepage": "https://github.com/nurislam03/MERN_A_to_Z#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "validation": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
