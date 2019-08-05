@@ -32,7 +32,7 @@ router.get('/:id', (req, res) => {
 // @access Public
 router.post('/', (req, res) => {
   Book.create(req.body)
-    .then(book => res.json(book))
+    .then(book => res.json({ msg: 'Book added successfully' }))
     .catch(err => res.status(400).json({ error: 'Unable to add this book' }));
 });
 
@@ -41,7 +41,7 @@ router.post('/', (req, res) => {
 // @access Public
 router.put('/:id', (req, res) => {
   Book.findByIdAndUpdate(req.params.id, req.body)
-    .then(book => res.json(book))
+    .then(book => res.json({ msg: 'Updated successfully' }))
     .catch(err =>
       res.status(400).json({ error: 'Unable to update the Database' })
     );
@@ -52,7 +52,7 @@ router.put('/:id', (req, res) => {
 // @access Public
 router.delete('/:id', (req, res) => {
   Book.findByIdAndRemove(req.params.id, req.body)
-    .then(book => res.json(book))
+    .then(book => res.json({ mgs: 'Book entry deleted successfully' }))
     .catch(err => res.status(404).json({ error: 'No such a book' }));
 });
 
