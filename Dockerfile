@@ -34,4 +34,4 @@ RUN npm install cors -g
 # RUN npm i -g pm2
 
 # Starting Server
-CMD ["sh", "-c", "npm", "run", "app.js"]
+CMD ["node", "app.js"]
