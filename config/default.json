@@ -1,4 +1,4 @@
 {
   "mongoURI":
-    "mongodb://root:abhinav123@mongodb.devtron-demo:27017/admin"
+    "mongodb+srv://mern123:mern123@mernatoz-9kdpd.mongodb.net/test?retryWrites=true&w=majority"
 }
