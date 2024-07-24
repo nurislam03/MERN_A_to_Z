@@ -28,6 +28,6 @@
     "validation": "0.0.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^3.1.4"
   }
 }
